@@ -69,6 +69,17 @@
 #include "HiggsAnalysis/CombinedLimit/interface/CMSHggFormula.h"
 #include "HiggsAnalysis/CombinedLimit/interface/SimpleProdPdf.h"
 
+#include "HiggsAnalysis/CombinedLimit/interface/RooDijetBinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooDijetForDiPhotonsBinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooExPowOrd1BinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooExPowOrd2BinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooInvPowOrd1BinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooInvPowOrd2BinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooInvPowLinOrd1BinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooInvPowLinOrd2BinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooModDijetOrd1ForDiPhotonsBinPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/RooModDijetOrd2ForDiPhotonsBinPdf.h"
+
 namespace {
     struct dictionary {
 	RooBernsteinFast<1> my_RooBernsteinFast_1;

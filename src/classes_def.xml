@@ -208,6 +208,16 @@
   <class name="SimpleTaylorExpansion1D" />
   <class name="RooTaylorExpansion" />
 	<class name="RooDoubleCBFast" />
+ 	<class name="RooDijetBinPdf" />	
+        <class name="RooDijetForDiPhotonsBinPdf" />
+        <class name="RooExPowOrd1BinPdf" />
+        <class name="RooExPowOrd2BinPdf" />
+        <class name="RooInvPowOrd1BinPdf" />
+        <class name="RooInvPowOrd2BinPdf" />
+        <class name="RooInvPowLinOrd1BinPdf" />
+        <class name="RooInvPowLinOrd2BinPdf" />
+        <class name="RooModDijetOrd1ForDiPhotonsBinPdf" />
+        <class name="RooModDijetOrd2ForDiPhotonsBinPdf" /> 
 	<class name="CombDataSetFactory"  transient="true" />
 	<class name="DebugProposal"  transient="true" />
 	<class name="cmsmath::SequentialMinimizer"  transient="true" />
